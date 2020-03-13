@@ -1,0 +1,17 @@
+<!--pages/list/list.wxml-->
+<text>pages/list/list.wxml</text>
+<view class="event-list">
+   <navigator class="event-link " url="/pages/list/imgshow1/imgshow1">
+      <view class="event-img">
+         <image mode="widthFix" src="https://hackwork.oss-cn-shanghai.aliyuncs.com/lesson/weapp/4/weapp.jpg"></image>
+      </view>
+      <view class="event-content">
+         <view class="event-title">零基础学会小程序开发</view>
+            <view class="event-desc">通过两天集中的学习，你会循序渐进的开发出一些具有实际应用场景的小程序。 </view>
+            <view class="event-box">
+                <view class="event-address">中国广东</view>
+                <view class="event-time">2020年3月份</view>
+            </view>
+      </view>
+   </navigator>
+</view>

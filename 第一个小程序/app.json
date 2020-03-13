@@ -1,0 +1,53 @@
+{
+   "pages": [
+      "pages/home/home",
+      "pages/home/imghow/imghow",
+      "pages/list/list",
+      "pages/list/imgshow1/imgshow1",
+      "pages/partner/partner",
+      "pages/more/more"
+   ],
+   "window": {
+      "backgroundTextStyle": "dark",
+      "navigationBarBackgroundColor": "#1772cb",
+      "navigationBarTitleText": "云开发技术训练营",
+      "navigationBarTextStyle": "white"
+   },
+   "tabBar": {
+      "list": [
+         {
+            "pagePath": "pages/home/home",
+            "iconPath": "images/tab1.png",
+            "selectedIconPath": "images/tab1-active.png",
+            "text": "首页"
+         },
+         {
+            "pagePath": "pages/list/list",
+            "iconPath": "images/tab2.png",
+            "selectedIconPath": "images/tab2-active.png",
+            "text": "活动"
+         },
+         {
+            "pagePath": "pages/partner/partner",
+            "iconPath": "images/tab3.png",
+            "selectedIconPath": "images/tab3-active.png",
+            "text": "伙伴"
+         },
+         {
+            "pagePath": "pages/more/more",
+            "iconPath": "images/tab4.png",
+            "selectedIconPath": "images/tab4-active.png",
+            "text": "更多"
+         }
+      ]
+   },
+   "networkTimeout": {
+      "request": 10000,
+      "downloadFile": 10000
+   },
+   "debug": true,
+   "navigateToMiniProgramAppIdList": [
+      "wxe5f52902cf4de896"
+   ],
+   "sitemapLocation": "sitemap0.json"
+}

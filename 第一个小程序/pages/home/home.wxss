@@ -1,0 +1,49 @@
+/* pages/home/home.wxss */
+.title{
+   font-size:20px;
+   font-weight: 600;
+   text-align: center;
+}
+.item-title{
+  font-size:18px;
+  font-weight:500;
+  color: #c60;
+}
+.title,.item-title{
+   /* em是相对于当前字体尺寸而言的单位，如果当前你的字体大小为16px， */
+  margin-bottom:0.9em;
+ /* 加一个左边框 ，border-left是边框属性*/
+  border-left: 3px solid #c60;
+  padding-left: 15px;
+
+  }
+.desc,.item-desc{
+  color: #333;
+}
+#studyweapp,#wxmlinfo{
+   font-size:16px;
+  font-family: -apple-system-font,Helvetica Neue,Helvetica,  sans-serif;
+  line-height: 1.6;
+  /* wxss中的图片只能来自服务器 */
+  background-image: url(https://hackwork.oss-cn-shanghai.aliyuncs.com/lesson/weapp/4/bg.png);
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+#wxmlinfo,#studyweapp{
+  padding-top:20px;
+  padding-right:15px;
+  padding-bottom:20px;
+  padding-left:15px;
+  /* 添加背景颜色 */
+  background-color: #dae7d9;
+}
+
+.item-link{
+   margin: 20px;
+   /* 提供两个先上下后左右 */
+   padding: 10px 15px;
+   background-color: #4ea6ec;
+   /* color: 是字体的颜色 */
+   color: #fff;
+   font-size: 20px;
+}

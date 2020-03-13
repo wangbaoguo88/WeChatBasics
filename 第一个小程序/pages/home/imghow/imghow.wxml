@@ -1,0 +1,18 @@
+<!--pages/home/imghow/imghow.wxml-->
+<text>pages/home/imghow/imghow.wxml</text>
+<view class="imgsection">
+   <view class="title">让小程序显示图片</view>
+   <view class="imglist">
+      <image class="imgicon" src="/images/tab2-active.png"></image>
+   </view>
+</view>
+
+
+<view class="imglist1">
+<!-- mode是缩放或者裁剪标签 -->
+      <image class="imgfull" mode="center" src="https://lesson-1301469963.cos.ap-chengdu.myqcloud.com/tab2-active.png"></image>
+</view>
+
+<view class="imglist3">
+   <image class="circle" mode="widthFix" src="https://hackwork.oss-cn-shanghai.aliyuncs.com/lesson/weapp/4/logo.jpg"></image>
+</view>
