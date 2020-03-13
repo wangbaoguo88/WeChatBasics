@@ -1,0 +1,25 @@
+/* pages/home/home.wxss */
+.list-item{
+   background-color: #82c2f7;
+   height: 100px;
+   text-align: center;
+   border: 1px solid #bdd2f8;
+}
+/* 让组件变成左右关系 */
+.flex-box{
+   display: flex;
+}
+/* 让组件的宽度均分,弄二等分，四等分，五等分增加相应的list-item即可 */
+.list-item{
+   flex: 1;
+}
+/* 让组件内的内容垂直居中 */
+.list-item{
+   display: flex;
+   align-items: center;/* 垂直居中 */
+    justify-content: center;/*水平居中 */
+}
+.hw_h3{
+   color: #1772cb;
+}
+

@@ -1,0 +1,110 @@
+/* pages/gradient/gradient.wxss */
+.gradient-display{
+   /* 默认渐变方向是由上到下 */
+   /* background-image: linear-gradient( 45deg,red,blue); */
+   /* background-image:linear-gradient(to left top,blue,red); */
+   /* background-image:linear-gradient(0deg,blue,green 40%,red); */
+   background-image:linear-gradient(19deg, rgb(33, 212, 253) 0%, rgb(183, 33, 255) 100%);
+   width: 100vw;
+   height: 100vh;
+}
+ .filter-display img{
+        width: 150px;height: auto;
+    }
+    .blur{
+        filter: blur(8px);
+    }
+    .grayscale{
+        filter: grayscale(90%);
+    }
+    .opacity{
+        filter: opacity(25%);
+    }
+    .multiple{
+        filter: blur(8px) grayscale(90%) opacity(25%);
+    }
+    .filter-display image{
+  width: 150px;height: auto;
+}
+.grayscale{
+  filter: grayscale(90%);
+}
+.grayscale-hover{
+  filter:grayscale(0);
+}
+
+.blur-bg {
+    width: 750rpx;height: 300rpx;overflow: hidden;
+    background: url(https://hackwork-1251009918.cos.ap-shanghai.myqcloud.com/handbook/html5/blurimg.jpg);
+    background-size: cover;
+    position: fixed;
+    filter: blur(15px);
+    z-index: -1;   
+}
+.user-img{
+    width: 750rpx;height: 300rpx;
+    display: flex;
+    justify-content: center; 
+    align-items:center;   
+}
+.user-img image {
+  width: 80rpx;height: 80rpx;
+  border-radius: 100%;
+  }
+
+  .transform-display image{
+  width: 80px;height: 80px;
+  }
+.scale{
+    transform: scale(1,0.5);
+}
+.translate{
+    transform: translate(500px,20px);
+}
+.rotate{
+    transform: rotate(45deg);
+}
+.skew{
+    transform: skew(120deg);
+}
+
+.selector {
+    transition: [transition-property] [transition-duration] [transition-timing-function] [transition-delay];
+}
+
+.box{width: 150px;height: 150px;cursor: pointer;}
+.bg-color{
+    background-color:green;
+}
+.bg-color-hover{
+    background-color: yellow;
+    transition: background-color 5s ease-out 3s;
+}
+
+.animatebox {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #4a9d64;
+    transition:width 2s, height 2s, background-color 2s, transform 2s;
+}
+.animatebox-hover {
+    background-color: #cd584a;
+    width:200px;
+    height:200px;
+    transform:rotate(180deg);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+ 
+  to {
+    opacity: 1;
+  }
+}
+ 
+.fadeIn {
+  animation: 4s linear 0s infinite alternate fadeIn;
+}

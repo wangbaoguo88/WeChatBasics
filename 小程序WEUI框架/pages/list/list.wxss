@@ -1,0 +1,17 @@
+/* pages/list/list.wxss */
+.weui-article{
+   padding: 20px 15px;
+   font-size: 15px;
+}
+
+#news-list .news-item{
+   margin: 15rpx;
+   padding: 15rpx;
+   border-bottom: 1rpx solid #ccc
+}
+#news-list .news-item image{
+   width: 100%;
+}
+#news-list .news-desc{
+   width: 100%;
+}

@@ -1,0 +1,17 @@
+/* pages/home/home.wxss */
+.covertext{
+   width: 500rpx;
+   color: white;
+   font-size: 12rpx;
+   position: 20rpx;
+   top: 20rpx;
+   left: 10rpx;
+}
+.coverimg{
+   width: 100rpx;
+   height: 23rpx;
+   /* absolute绝对定位 */
+   position: absolute;
+   right: 10rpx;
+   top: 10rpx;
+}
